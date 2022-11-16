@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.main{
+  width: 100%;
+  height: 95%;
+  background-color: black;
+  display: flex;
+}
+.left{
+  width: 40%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+}
+.nav{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+}
+.nav .tw{
+  color: deepskyblue;
+  padding: 0 16px;
+}
+.nav .arrow{
+  padding-right: 90px;
+  
+}
+.nav a{
+  padding: 0 16px;
+}
+.text{
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.text h1{
+  font-size: 8vw;
+  
+}
+.text p{
+  padding: 10px 0;
+}
+.text a{
+  text-decoration: none;
+  color: black;
+}
+.text button{
+  padding: 4px 8px;
+  outline: none;
+}
+.text button:hover{
+  background-color: black;
+  box-shadow: 0 0 4px 6px blue;
+  color: white;
+}
+.right{
+  width: 60%;
+  height: 100%;
+  background-color: red;
+  
+}
+.top{
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+  display: flex;
+}
+.a1{
+  width: 65%;
+  height: 100%;
+  background-color: pink;
+}
+.a1 img{
+  width: 100%;
+  height: 100%;
+}
+.a2{
+  width: 35%;
+  height: 100%;
+  background-color: deepskyblue;
+}
+.a2 img{
+  width: 100%;
+  height: 100%;
+}
+.bottum{
+  width: 100%;
+  height: 50%;
+  background-color: violet;
+}
+.bottum img{
+  width: 100%;
+  height: 100%;
+}
+.futer{
+  width: 100%;
+  height: 5%;
+  background-color: lime;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.futer a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+@media (max-width: 500px) {
+  .main{
+  flex-direction: column;
+}
+.left{
+  width: 100%
+}
+.right{
+  width: 100%
+}
+}
